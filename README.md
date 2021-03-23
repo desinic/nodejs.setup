@@ -88,9 +88,7 @@ In order to lint and format your code automatically according to popular airbnb 
 **Install Dev Dependencies**
 
 ```text
-yarn add -D eslint prettier
-npx install-peerdeps --dev eslint-config-airbnb-base
-yarn add -D eslint-config-prettier eslint-plugin-prettier
+"lint": "yarn add -D eslint prettier && npx install-peerdeps --dev eslint-config-airbnb-base && yarn add -D eslint-config-prettier eslint-plugin-prettier"
 ```
 **Setup Linting Configuration file**
 
