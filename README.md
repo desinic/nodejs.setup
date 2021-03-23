@@ -67,6 +67,8 @@ In order to follow along the tutorial series, I recommend you to use Visual Stud
 Go to your Visual Stuido Code `settings.json` file and add the below settings there:
 
 ```Json
+// theme
+  "workbench.colorTheme": "Andromeda Colorizer",
 // config related to code formatting
 "editor.defaultFormatter": "esbenp.prettier-vscode",
 "editor.formatOnSave": true,
